@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /jpa
+spring:
+  application:
+    name: jpa
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    username: user
+    password: password
+    url: jdbc:mysql://localhost:3312/jpa
