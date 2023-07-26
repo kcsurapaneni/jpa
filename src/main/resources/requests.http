@@ -1,0 +1,13 @@
+###
+
+GET http://localhost:8080/jpa/user/{{id}}
+
+###
+
+POST http://localhost:8080/jpa/user
+Content-Type: application/json
+
+{
+  "name" : "VK",
+  "address": "Canada"
+}
