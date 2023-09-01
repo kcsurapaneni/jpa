@@ -62,6 +62,18 @@
 			<artifactId>mysql</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+        <!--
+        docker compose
+        https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.docker-compose
+        -->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-docker-compose</artifactId>
+            <optional>true</optional>
+        </dependency>
+        
 	</dependencies>
 
 	<build>
