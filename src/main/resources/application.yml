@@ -8,7 +8,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
-  datasource:
-    username: user
-    password: password
-    url: jdbc:mysql://localhost:3312/jpa
+#  datasource:
+#    username: user
+#    password: password
+#    url: jdbc:mysql://localhost:3312/jpa
