@@ -1,0 +1,9 @@
+logging:
+  level:
+#    org.hibernate: trace
+    org.springframework.boot.docker: trace
+spring:
+  docker:
+    compose:
+      profiles:
+        active: "local"

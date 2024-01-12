@@ -1,4 +1,4 @@
-package com.learn.jpa.model;
+package com.learn.jpa.domain;
 
 import com.learn.jpa.dto.*;
 import jakarta.persistence.*;

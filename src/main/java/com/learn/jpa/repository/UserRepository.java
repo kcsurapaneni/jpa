@@ -1,6 +1,6 @@
 package com.learn.jpa.repository;
 
-import com.learn.jpa.model.*;
+import com.learn.jpa.domain.*;
 import org.springframework.data.jpa.repository.*;
 
 /**

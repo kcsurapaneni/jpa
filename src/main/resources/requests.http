@@ -11,3 +11,15 @@ Content-Type: application/json
   "name" : "VK",
   "address": "Canada"
 }
+
+###
+
+GET http://localhost:8080/jpa/categories
+
+###
+
+GET http://localhost:8080/jpa/categories?id=1
+
+###
+
+GET http://localhost:8080/jpa/categories?id=4&name=Books

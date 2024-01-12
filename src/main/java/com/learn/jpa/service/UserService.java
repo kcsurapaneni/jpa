@@ -1,8 +1,8 @@
 package com.learn.jpa.service;
 
+import com.learn.jpa.domain.*;
 import com.learn.jpa.dto.*;
 import com.learn.jpa.exception.*;
-import com.learn.jpa.model.*;
 import com.learn.jpa.repository.*;
 import org.springframework.stereotype.*;
 
